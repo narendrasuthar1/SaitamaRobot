@@ -102,7 +102,7 @@ And the following:
     if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n",
 )
 
-SAITAMA_IMG = "https://telegra.ph/file/46e6d9dfcb3eb9eae95d9.jpg"
+SAITAMA_IMG = "https://drive.google.com/file/d/1V7UyARojCIq7PVTp2rhofvfOQPUQgyFQ/view?usp=sharing"
 
 #DONATE_STRING = """Heya, glad to hear you want to donate!
 #Saitama is hosted on one of Kaizoku's Servers and doesn't require any donations as of now but \
@@ -235,8 +235,8 @@ def start(update: Update, context: CallbackContext):
                     ],
                     [
                         InlineKeyboardButton(
-                            text="🚑 Support Group",
-                            url=f"https://t.me/{SUPPORT_CHAT}",
+                            text="CONTACT OWNER",
+                            url=f"https://t.me/i_am_your_ghost",
                         ),
                         #InlineKeyboardButton(
                          #   text="🔔 Updates Channel",
